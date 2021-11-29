@@ -1,0 +1,111 @@
+
+.profile {
+    display: block;
+    width: 30%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    border: solid 1px black;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.profile input[type=text], .profile input[type=password], input[type=email], input[type=file] {
+    width: 100%;
+    padding: 3px 10px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+ h3 {
+        text-align: center;
+ }
+
+    .info {
+        display: block;
+        border: solid 1px black;
+        width: 30%;
+        height: auto;
+        margin: auto;
+        margin-block-end: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 4px;
+
+    }
+
+    .info img {
+        display: block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        max-width: 100%;
+        max-height: 400px;
+        padding: 2px;
+        margin: auto;
+    }
+
+    .info span {
+        padding: 3px;
+        display: block;
+    }
+
+    .picture-control {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .picture-control small {
+        display: none;
+    }
+
+    .picture-control.error small {
+        color: red;
+        display: block;
+    }
+
+    .picture-control.success small {
+        color: rgb(4, 138, 82);
+        display: block;
+    }
+
+ .submit {
+     margin-bottom: 5px;
+     margin-top: 5px;
+     display: block;
+     position: relative;
+     background-color: #04AA6D;
+     color: white;
+     padding: 5px;
+     width: 40%;
+     font-size: 12px;
+ }
+
+.container-control {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container-control small {
+    display: none;
+    padding-block-end: 5px;
+}
+
+ .container-control.error small {
+    color: red;
+    display: block;
+}
+
+.container-control.success small {
+    color: rgb(4, 138, 82);
+    display: block;
+    margin-bottom: -10px;
+}
+
+.complete {
+    display: none;
+    padding: 5px;
+    color: rgb(4, 138, 82);
+}
+

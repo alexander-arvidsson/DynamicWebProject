@@ -1,0 +1,39 @@
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  max-height: 350px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: vertical;
+}
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+  .registrbtn {
+    width: auto;
+    position: absolute;
+    right: 3%;
+    padding: 10px 18px;
+    background-color: #514ef5;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  .container-control small {
+    display: none;
+    padding-block-end: 5px;
+   }
+
+   .container-control.error small {
+    color: red;
+    display: block;
+   }
